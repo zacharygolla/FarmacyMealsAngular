@@ -1,0 +1,9 @@
+<div class="row text-left d-flex d-sm-flex justify-content-center justify-content-sm-center" style="padding-top: 20px;">
+  <div *ngFor="let food of foods">
+    <div class="col-9 col-sm-7 col-md-4 col-xl-3 offset-0 offset-sm-0" data-style="padding-bottom: 15px;">
+      <img class="img-fluid"src="{{ food.imagePath }}">
+      <h4 class="text-break text-left" style="font-size: 25px;font-family: 'Noto Serif KR', serif;padding-top: 15px;">{{ food.name }}</h4>
+      <p class="text-left" style="font-family: 'Noto Serif KR', serif;">{{ food.description }}</p>
+    </div>
+  </div>
+</div>

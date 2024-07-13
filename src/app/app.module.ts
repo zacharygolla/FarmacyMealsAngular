@@ -5,13 +5,13 @@ import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './modules/home/home.component';
+import { MenuComponent } from './modules/menu/menu.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { CartComponent } from './cart/cart.component';
-import { PackagesComponent } from './packages/packages.component';
-import { MenuService } from './services/menu.service';
+import { CartComponent } from './modules/cart/cart.component';
+import { MenuService } from './core/services/menu.service';
+import { PackagesComponent } from './modules/packages/packages.component';
 
 @NgModule({
   declarations: [
